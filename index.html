@@ -8377,7 +8377,25 @@
         data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;9c3e3fc51b9b48d39a8a25309aa09bca&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}"
         crossorigin="anonymous"></script>
 
+<script>
+  // ambil parameter ?for= dari URL
+  const params = new URLSearchParams(window.location.search);
+  const namaFor = params.get("for");
 
+  if (namaFor) {
+    const el = document.querySelector(".nama-tamu");
+    if (el) {
+      // decode, trim, dan ubah kapitalisasi biar rapi
+      const decoded = decodeURIComponent(namaFor).trim();
+      const formatted = decoded
+        .split(" ")
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+        .join(" ");
+
+      el.textContent = formatted;
+    }
+  }
+</script>
 
 
     <span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;"
