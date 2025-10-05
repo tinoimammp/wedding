@@ -8319,14 +8319,14 @@ document.addEventListener("DOMContentLoaded", async () => {
   const BIN_ID = "68e2a80e43b1c97be95b60d9";
   const API_KEY = "$2a$10$RERjTw4nHGgcHVJMkXZbJejGz5vft1VVjIM7PuPOWIOgSC9xM1B8e";
   const JSONBIN_URL = `https://api.jsonbin.io/v3/b/${BIN_ID}`;
-  const listEl = document.getElementById("wdp-container-comment-113824");
+  const listEl = document.getElementById("wdp-container-comment-112429");
   const counterEl = document.querySelector("#wdp-link-113824 span");
-  const formEl = document.getElementById("commentform-113824");
+  const formEl = document.getElementById("commentform-112429");
 
-  // 🔹 Helper: waktu relatif (misal "3 mins ago")
+  // 🔹 Helper: waktu relatif
   function timeAgo(dateString) {
     const date = new Date(dateString);
-    const diff = (new Date() - date) / 1000; // seconds
+    const diff = (new Date() - date) / 1000;
     if (diff < 60) return "baru saja";
     if (diff < 3600) return Math.floor(diff / 60) + " mins ago";
     if (diff < 86400) return Math.floor(diff / 3600) + " hrs ago";
@@ -8348,7 +8348,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   // 🔹 Ambil semua ucapan dari JSONBin
   async function loadUcapan() {
     try {
-      const res = await fetch(`${JSONBIN_URL}/latest`, {
+      const res = await fetch(`${JSONBIN_URL}/latest?cb=${Date.now()}`, {
         headers: { "X-Master-Key": API_KEY },
       });
       const json = await res.json();
@@ -8366,23 +8366,23 @@ document.addEventListener("DOMContentLoaded", async () => {
         .reverse()
         .map(
           (x, i) => `
-      <li class="comment ${i % 2 === 0 ? "even" : "odd"} depth-1 wdp-item-comment" id="wdp-item-comment-${i}">
-        <div id="wdp-comment-${i}" class="wdp-comment wdp-clearfix">
-          <div class="wdp-comment-avatar">
-            <img src="${makeAvatar(x.nama)}" class="avatar avatar-32 photo avatar-default" height="32" width="32" loading="lazy" />
+    <li class="comment ${i % 2 === 0 ? "even" : "odd"} depth-1 wdp-item-comment" id="wdp-item-comment-${i}">
+      <div id="wdp-comment-${i}" class="wdp-comment wdp-clearfix">
+        <div class="wdp-comment-avatar">
+          <img alt="" src="${makeAvatar(x.nama)}" class="avatar avatar-32 photo avatar-default" height="32" width="32" loading="lazy">
+        </div>
+        <div class="wdp-comment-content">
+          <div class="wdp-comment-info">
+            <a class="wdp-commenter-name" title="${x.nama}">${x.nama}</a>
+            <span class="wdp-post-author"><i class="fas fa-check-circle"></i> ${x.status || "Hadir"}</span><br>
+            <span class="wdp-comment-time"><i class="far fa-clock"></i> ${timeAgo(x.waktu)}</span>
           </div>
-          <div class="wdp-comment-content">
-            <div class="wdp-comment-info">
-              <a class="wdp-commenter-name" title="${x.nama}">${x.nama}</a>
-              <span class="wdp-post-author"><i class="fas fa-check-circle"></i> ${x.status || "Hadir"}</span><br>
-              <span class="wdp-comment-time"><i class="far fa-clock"></i> ${timeAgo(x.waktu)}</span>
-            </div>
-            <div class="wdp-comment-text">
-              <p>${x.ucapan}</p>
-            </div>
+          <div class="wdp-comment-text">
+            <p>${x.ucapan}</p>
           </div>
         </div>
-      </li>`
+      </div>
+    </li>`
         )
         .join("");
     } catch (err) {
@@ -8410,18 +8410,18 @@ document.addEventListener("DOMContentLoaded", async () => {
         body: JSON.stringify(data),
       });
 
-      loadUcapan();
+      await loadUcapan();
     } catch (err) {
       console.error("❌ Gagal kirim data:", err);
-      alert("Gagal kirim ucapan");
+      alert("Gagal kirim ucapan.");
     }
   }
 
-  // 🔹 Event submit form
+  // 🔹 Submit form
   formEl.addEventListener("submit", (e) => {
     e.preventDefault();
     const nama = document.getElementById("author").value.trim();
-    const ucapan = document.getElementById("wdp-textarea-113824").value.trim();
+    const ucapan = document.getElementById("wdp-textarea-112429").value.trim();
     const status = document.querySelector("select[name='konfirmasi']").value;
 
     if (!nama || !ucapan) {
@@ -8434,9 +8434,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   await loadUcapan();
-  setInterval(loadUcapan, 10000); // auto refresh tiap 10 detik
+  setInterval(loadUcapan, 10000);
 });
 </script>
+
 
 
 
