@@ -2,13 +2,91 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <title>Redirecting...</title>
-  <script>
-    const params = window.location.search; 
-    window.location.replace(`/weddingnanik/${params || '?for=Tamu Undangan'}`);
-  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invite.OpenApp — Undangan Digital</title>
+  <meta name="description" content="Platform undangan digital modern untuk momen spesial Anda. Buat undangan pernikahan, ulang tahun, wisuda, dan lainnya dengan desain elegan serta link personal.">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4208/4208391.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    :root {
+      --primary: #6b562e;
+      --bg1: #fffaf3;
+      --bg2: #f9f3df;
+      --text: #4b3f29;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, var(--bg1), var(--bg2));
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      min-height: 100vh;
+      padding: 0 20px;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4vw, 2.6rem);
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      color: #5a4c2f;
+      margin-bottom: 25px;
+      max-width: 500px;
+    }
+
+    a.btn {
+      display: inline-block;
+      background: var(--primary);
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s ease;
+      font-size: 1rem;
+    }
+
+    a.btn:hover {
+      background: #4b3f29;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      position: fixed;
+      bottom: 20px;
+      font-size: 0.9em;
+      color: #7a6a3e;
+      text-align: center;
+      width: 100%;
+    }
+
+    /* Responsive tweak untuk layar kecil */
+    @media (max-height: 600px) {
+      footer { position: relative; margin-top: 40px; }
+    }
+  </style>
 </head>
 <body>
-  <p>Mengarahkan ke undangan...</p>
+  <main>
+    <h1>Invite.OpenApp</h1>
+    <p>Undangan Digital Elegan &amp; Personal<br>Untuk Momen Spesial Anda 💍</p>
+    <a href="/weddingnanik/?for=Tamu" class="btn">
+      <i class="fa-solid fa-heart"></i> Lihat Contoh Undangan
+    </a>
+  </main>
+  <footer>© 2025 Invite.OpenApp — by <strong>Labs Digital Side</strong></footer>
 </body>
 </html>
