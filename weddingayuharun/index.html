@@ -8170,7 +8170,25 @@
     data-cf-beacon='{"version":"2024.11.0","token":"9c3e3fc51b9b48d39a8a25309aa09bca","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
     crossorigin="anonymous"></script>
 
+    <script>
+        // ambil parameter ?for= dari URL
+        const params = new URLSearchParams(window.location.search);
+        const namaFor = params.get("to");
 
+        if (namaFor) {
+            const el = document.querySelector(".nama-tamu");
+            if (el) {
+                // decode, trim, dan ubah kapitalisasi biar rapi
+                const decoded = decodeURIComponent(namaFor).trim();
+                const formatted = decoded
+                    .split(" ")
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+                    .join(" ");
+
+                el.textContent = formatted;
+            }
+        }
+    </script>
         <script>
         document.addEventListener("DOMContentLoaded", async () => {
             const BIN_ID = "690b5b13d0ea881f40d5a6fb";
