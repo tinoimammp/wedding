@@ -1,7 +1,7 @@
 @font-face {
     font-family: wdpfont;
-    src: url(../fonts/wdpfont.eot?i08r8g);
-    src: url(../fonts/wdpfont.eot?i08r8g#iefix) format("embedded-opentype"), url(../fonts/wdpfont.ttf?i08r8g) format("truetype"), url(../fonts/wdpfont.woff?i08r8g) format("woff"), url(../fonts/wdpfont.svg?i08r8g#wdpfont) format("svg");
+    src: url(.../fonts/wdpfont.eot?i08r8g);
+    src: url(.../fonts/wdpfont.eot?i08r8g#iefix) format("embedded-opentype"), url(.../fonts/wdpfont.ttf?i08r8g) format("truetype"), url(.../fonts/wdpfont.woff?i08r8g) format("woff"), url(.../fonts/wdpfont.svg?i08r8g#wdpfont) format("svg");
     font-weight: 400;
     font-style: normal
 }

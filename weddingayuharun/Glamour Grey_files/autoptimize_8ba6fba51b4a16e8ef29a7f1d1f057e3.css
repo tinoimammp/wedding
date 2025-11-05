@@ -18019,8 +18019,8 @@ body.rtl .eae-cs-layout-skin4 input:checked+.eae-content-toggle-switcher:before 
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(.//fonts/fa-brands-400.eot);
-    src: url(.//fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(.//fonts/fa-brands-400.woff2) format("woff2"), url(.//fonts/fa-brands-400.woff) format("woff"), url(.//fonts/fa-brands-400.ttf) format("truetype"), url(.//fonts/fa-brands-400.svg#fontawesome) format("svg")
+    src: url(././fonts/fa-brands-400.eot);
+    src: url(././fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(././fonts/fa-brands-400.woff2) format("woff2"), url(././fonts/fa-brands-400.woff) format("woff"), url(././fonts/fa-brands-400.ttf) format("truetype"), url(././fonts/fa-brands-400.svg#fontawesome) format("svg")
 }
 
 .fab {
@@ -18033,8 +18033,8 @@ body.rtl .eae-cs-layout-skin4 input:checked+.eae-content-toggle-switcher:before 
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(.//fonts/fa-regular-400.eot);
-    src: url(.//fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(.//fonts/fa-regular-400.woff2) format("woff2"), url(.//fonts/fa-regular-400.woff) format("woff"), url(.//fonts/fa-regular-400.ttf) format("truetype"), url(.//fonts/fa-regular-400.svg#fontawesome) format("svg")
+    src: url(././fonts/fa-regular-400.eot);
+    src: url(././fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(././fonts/fa-regular-400.woff2) format("woff2"), url(././fonts/fa-regular-400.woff) format("woff"), url(././fonts/fa-regular-400.ttf) format("truetype"), url(././fonts/fa-regular-400.svg#fontawesome) format("svg")
 }
 
 .far {
@@ -18047,8 +18047,8 @@ body.rtl .eae-cs-layout-skin4 input:checked+.eae-content-toggle-switcher:before 
     font-style: normal;
     font-weight: 900;
     font-display: block;
-    src: url(.//fonts/fa-solid-900.eot);
-    src: url(.//fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(.//fonts/fa-solid-900.woff2) format("woff2"), url(.//fonts/fa-solid-900.woff) format("woff"), url(.//fonts/fa-solid-900.ttf) format("truetype"), url(.//fonts/fa-solid-900.svg#fontawesome) format("svg")
+    src: url(././fonts/fa-solid-900.eot);
+    src: url(././fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(././fonts/fa-solid-900.woff2) format("woff2"), url(././fonts/fa-solid-900.woff) format("woff"), url(././fonts/fa-solid-900.ttf) format("truetype"), url(././fonts/fa-solid-900.svg#fontawesome) format("svg")
 }
 
 .fa,
@@ -18651,8 +18651,8 @@ body.rtl .eae-cs-layout-skin4 input:checked+.eae-content-toggle-switcher:before 
 
 @font-face {
     font-family: 'fontello';
-    src: url(/fonts/fontello.eot?42994344);
-    src: url(/fonts/fontello.eot?42994344#iefix) format('embedded-opentype'), url(/fonts/fontello.woff2?42994344) format('woff2'), url(/fonts/fontello.woff?42994344) format('woff'), url(/fonts/fontello.ttf?42994344) format('truetype'), url(/fonts/fontello.svg?42994344#fontello) format('svg');
+    src: url(./fonts/fontello.eot?42994344);
+    src: url(./fonts/fontello.eot?42994344#iefix) format('embedded-opentype'), url(./fonts/fontello.woff2?42994344) format('woff2'), url(./fonts/fontello.woff?42994344) format('woff'), url(./fonts/fontello.ttf?42994344) format('truetype'), url(./fonts/fontello.svg?42994344#fontello) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -62378,8 +62378,8 @@ ol.elementor-toc__list-wrapper .elementor-toc__list-item-text-wrapper:before {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(/fonts/fa-brands-400.eot);
-    src: url(/fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(/fonts/fa-brands-400.woff2) format("woff2"), url(/fonts/fa-brands-400.woff) format("woff"), url(/fonts/fa-brands-400.ttf) format("truetype"), url(/fonts/fa-brands-400.svg#fontawesome) format("svg")
+    src: url(./fonts/fa-brands-400.eot);
+    src: url(./fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(./fonts/fa-brands-400.woff2) format("woff2"), url(./fonts/fa-brands-400.woff) format("woff"), url(./fonts/fa-brands-400.ttf) format("truetype"), url(./fonts/fa-brands-400.svg#fontawesome) format("svg")
 }
 
 .fab {
@@ -62391,8 +62391,8 @@ ol.elementor-toc__list-wrapper .elementor-toc__list-item-text-wrapper:before {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(/fonts/fa-regular-400.eot);
-    src: url(/fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(/fonts/fa-regular-400.woff2) format("woff2"), url(/fonts/fa-regular-400.woff) format("woff"), url(/fonts/fa-regular-400.ttf) format("truetype"), url(/fonts/fa-regular-400.svg#fontawesome) format("svg")
+    src: url(./fonts/fa-regular-400.eot);
+    src: url(./fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(./fonts/fa-regular-400.woff2) format("woff2"), url(./fonts/fa-regular-400.woff) format("woff"), url(./fonts/fa-regular-400.ttf) format("truetype"), url(./fonts/fa-regular-400.svg#fontawesome) format("svg")
 }
 
 .fab,
@@ -62405,8 +62405,8 @@ ol.elementor-toc__list-wrapper .elementor-toc__list-item-text-wrapper:before {
     font-style: normal;
     font-weight: 900;
     font-display: block;
-    src: url(/fonts/fa-solid-900.eot);
-    src: url(/fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(/fonts/fa-solid-900.woff2) format("woff2"), url(/fonts/fa-solid-900.woff) format("woff"), url(/fonts/fa-solid-900.ttf) format("truetype"), url(/fonts/fa-solid-900.svg#fontawesome) format("svg")
+    src: url(./fonts/fa-solid-900.eot);
+    src: url(./fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(./fonts/fa-solid-900.woff2) format("woff2"), url(./fonts/fa-solid-900.woff) format("woff"), url(./fonts/fa-solid-900.ttf) format("truetype"), url(./fonts/fa-solid-900.svg#fontawesome) format("svg")
 }
 
 .fa,
@@ -70674,8 +70674,8 @@ ol.elementor-toc__list-wrapper .elementor-toc__list-item-text-wrapper:before {
     font-style: normal;
     font-weight: 900;
     font-display: block;
-    src: url(/fonts/fa-solid-900.eot);
-    src: url(/fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(/fonts/fa-solid-900.woff2) format("woff2"), url(/fonts/fa-solid-900.woff) format("woff"), url(/fonts/fa-solid-900.ttf) format("truetype"), url(/fonts/fa-solid-900.svg#fontawesome) format("svg")
+    src: url(./fonts/fa-solid-900.eot);
+    src: url(./fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(./fonts/fa-solid-900.woff2) format("woff2"), url(./fonts/fa-solid-900.woff) format("woff"), url(./fonts/fa-solid-900.ttf) format("truetype"), url(./fonts/fa-solid-900.svg#fontawesome) format("svg")
 }
 
 .fa,
@@ -70693,8 +70693,8 @@ ol.elementor-toc__list-wrapper .elementor-toc__list-item-text-wrapper:before {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(/fonts/fa-regular-400.eot);
-    src: url(/fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(/fonts/fa-regular-400.woff2) format("woff2"), url(/fonts/fa-regular-400.woff) format("woff"), url(/fonts/fa-regular-400.ttf) format("truetype"), url(/fonts/fa-regular-400.svg#fontawesome) format("svg")
+    src: url(./fonts/fa-regular-400.eot);
+    src: url(./fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(./fonts/fa-regular-400.woff2) format("woff2"), url(./fonts/fa-regular-400.woff) format("woff"), url(./fonts/fa-regular-400.ttf) format("truetype"), url(./fonts/fa-regular-400.svg#fontawesome) format("svg")
 }
 
 .far {
@@ -70711,8 +70711,8 @@ ol.elementor-toc__list-wrapper .elementor-toc__list-item-text-wrapper:before {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(/fonts/fa-brands-400.eot);
-    src: url(/fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(/fonts/fa-brands-400.woff2) format("woff2"), url(/fonts/fa-brands-400.woff) format("woff"), url(/fonts/fa-brands-400.ttf) format("truetype"), url(/fonts/fa-brands-400.svg#fontawesome) format("svg")
+    src: url(./fonts/fa-brands-400.eot);
+    src: url(./fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(./fonts/fa-brands-400.woff2) format("woff2"), url(./fonts/fa-brands-400.woff) format("woff"), url(./fonts/fa-brands-400.ttf) format("truetype"), url(./fonts/fa-brands-400.svg#fontawesome) format("svg")
 }
 
 .fab {
@@ -71289,8 +71289,8 @@ img {
     font-family: 'slick';
     font-weight: 400;
     font-style: normal;
-    src: url(/fonts/slick.eot);
-    src: url(/fonts/slick.eot?#iefix) format('embedded-opentype'), url(/fonts/slick.woff) format('woff'), url(/fonts/slick.ttf) format('truetype'), url(/fonts/slick.svg#slick) format('svg')
+    src: url(./fonts/slick.eot);
+    src: url(./fonts/slick.eot?#iefix) format('embedded-opentype'), url(./fonts/slick.woff) format('woff'), url(./fonts/slick.ttf) format('truetype'), url(./fonts/slick.svg#slick) format('svg')
 }
 
 .slick-prev,
@@ -71528,8 +71528,8 @@ img {
 
 @font-face {
     font-family: rsvpfont;
-    src: url(/fonts/rsvpfont.eot?i08r8g);
-    src: url(/fonts/rsvpfont.eot?i08r8g#iefix) format("embedded-opentype"), url(/fonts/rsvpfont.ttf?i08r8g) format("truetype"), url(/fonts/rsvpfont.woff?i08r8g) format("woff"), url(/fonts/rsvpfont.svg?i08r8g#rsvpfont) format("svg");
+    src: url(./fonts/rsvpfont.eot?i08r8g);
+    src: url(./fonts/rsvpfont.eot?i08r8g#iefix) format("embedded-opentype"), url(./fonts/rsvpfont.ttf?i08r8g) format("truetype"), url(./fonts/rsvpfont.woff?i08r8g) format("woff"), url(./fonts/rsvpfont.svg?i08r8g#rsvpfont) format("svg");
     font-weight: 400;
     font-style: normal
 }
